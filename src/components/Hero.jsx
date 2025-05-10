@@ -1,4 +1,5 @@
 import HeroImg from "./../images/photos/Hero.jpg";
+import FullLogo from "./../images/logo/full-logo.svg";
 
 const Hero = () => {
   return (
@@ -21,29 +22,26 @@ const Hero = () => {
 
           <div className="animate-slide-up">
             <h1 className="flex flex-col md:text-5xl lg:text-5xl font-bold mb-6 font-playfair text-gray-900">
-              <span className="font-alice font-light text-8xl">ABBA</span>
-              <span className="font-['Times-New-Roman'] text-[22px] uppercase">
-                iglesia evangélica
-              </span>
+              <img src={FullLogo} alt="logo" className="max-w-58" />
             </h1>
             <div className="text-lg text-gray-700 mb-8 max-w-xl">
               <p>Profesando y viviendo el amor de Cristo.</p>
               <p>
-                Somos una comunidad de fe, esperanza y amor en el corazón de
+                Somos ABBA Iglesia Evangélica — una comunidad de fe, esperanza y amor en el corazón de
                 Gijón. Te invitamos a formar parte de nuestra familia.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#services"
-                className="bg-church-purple hover:bg-church-darkPurple text-white px-8 py-6 text-base rounded-md text-center transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-church-purple text-white rounded-lg hover:bg-church-darkPurple transition-colors"
               >
                 Nuestros Servicios
               </a>
 
               <a
                 href="#about"
-                className="border border-church-purple text-church-purple hover:text-purple hover:bg-church-purple/20 px-8 py-6 text-base rounded-md text-center transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-church-purple text-church-purple hover:text-purple hover:bg-church-purple/20 rounded-lg text-base transition-colors"
               >
                 Conócenos
               </a>

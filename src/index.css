@@ -2,11 +2,11 @@
 
 @theme {
   /* Church color palette */
-  --color-church-purple: #AD8B73;
-  --color-church-light-purple: #DCC2AA;
-  --color-church-gold: #F7CF6B;
-  --color-church-dark-gold: #E6B65C;
-  --color-church-dark-purple: #5F4532;
+  --color-church-purple: #ad8b73;
+  --color-church-light-purple: #dcc2aa;
+  --color-church-gold: #f7cf6b;
+  --color-church-dark-gold: #e6b65c;
+  --color-church-dark-purple: #5f4532;
 
   /* Sidebar colors */
   --color-sidebar: hsl(var(--sidebar-background));
@@ -39,23 +39,44 @@
   --animate-slide-up: slide-up 0.5s ease-out;
 
   @keyframes accordion-down {
-    from { height: 0; }
-    to { height: var(--radix-accordion-content-height); }
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
   }
 
   @keyframes accordion-up {
-    from { height: var(--radix-accordion-content-height); }
-    to { height: 0; }
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
   }
 
   @keyframes fade-in {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @keyframes slide-up {
-    0% { transform: translateY(20px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
