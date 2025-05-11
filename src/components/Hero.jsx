@@ -21,15 +21,16 @@ const Hero = () => {
           </div>
 
           <div className="animate-slide-up">
-            <h1 className="flex flex-col md:text-5xl lg:text-5xl font-bold mb-6 font-playfair text-gray-900">
+            <div className="flex flex-col md:text-5xl lg:text-5xl font-bold mb-6 font-playfair text-gray-900">
               <img src={FullLogo} alt="logo" className="max-w-58" />
-            </h1>
+            </div>
             <div className="text-lg text-gray-700 mb-8 max-w-xl">
               <p>Profesando y viviendo el amor de Cristo.</p>
-              <p>
-                Somos ABBA Iglesia Evangélica — una comunidad de fe, esperanza y amor en el corazón de
-                Gijón. Te invitamos a formar parte de nuestra familia.
-              </p>
+              <h1>
+                Somos ABBA Iglesia Evangélica, una comunidad de fe, esperanza y
+                amor, situada en el corazón de Gijón. Te invitamos a unirte a
+                nuestra familia.
+              </h1>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

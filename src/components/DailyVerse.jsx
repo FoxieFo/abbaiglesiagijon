@@ -20,8 +20,8 @@ const DailyVerse = () => {
             <p className="relative z-10 text-xl md:text-xl font-playfair italic text-gray-800 mb-6">
               {verse.text}
             </p>
-            <div className="text-lg text-gray-600 font-medium">
-              <span className="inline-block px-4 py-1 rounded-full bg-church-gold/20 text-church-darkGold">
+            <div className="text-lg text-black font-medium">
+              <span className="inline-block px-4 py-2 rounded-full bg-church-gold/20 text-church-darkGold">
                 {verse.reference}
               </span>
             </div>
