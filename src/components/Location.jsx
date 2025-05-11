@@ -112,7 +112,7 @@ const Location = () => {
               href="https://wa.me/34675042136"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-church-purple text-white rounded-lg font-medium hover:bg-church-darkPurple transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-church-purple text-white rounded-lg font-medium hover:bg-church-dark-purple transition-colors"
             >
               <img src={Whatsapp} alt="WhatsApp" className="h-5 w-5" />
               Escríbenos

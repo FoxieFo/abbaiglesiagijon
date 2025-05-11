@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#services"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-church-purple text-white rounded-lg hover:bg-church-darkPurple transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-church-purple text-white rounded-lg hover:bg-church-dark-purple transition-colors"
               >
                 Nuestros Servicios
               </a>

@@ -57,7 +57,7 @@ const Header = () => {
           ))}
           <a
             href="#contact"
-            className="bg-church-purple hover:bg-church-darkPurple text-white text-base px-4 py-2 rounded-md transition-colors"
+            className="bg-church-purple hover:bg-church-dark-purple text-white text-base px-4 py-2 rounded-md transition-colors"
           >
             Contáctanos
           </a>
