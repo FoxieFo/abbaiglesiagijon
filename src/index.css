@@ -7,6 +7,7 @@
   --color-church-gold: #f7cf6b;
   --color-church-dark-gold: #e6b65c;
   --color-church-dark-purple: #5f4532;
+  --color-church-dark-brown: #2D231D;
 
   /* Sidebar colors */
   --color-sidebar: hsl(var(--sidebar-background));

@@ -1,4 +1,4 @@
-import HeroImg from "./../images/photos/Hero.jpg";
+import HeroImg from "./../images/photos/HeroAbba.jpg";
 import FullLogo from "./../images/logo/full-logo.svg";
 
 const Hero = () => {
@@ -21,12 +21,9 @@ const Hero = () => {
           </div>
 
           <div className="animate-slide-up">
-            <div className="flex flex-col md:text-5xl lg:text-5xl font-bold mb-6 font-playfair text-gray-900">
-              <img src={FullLogo} alt="logo" className="max-w-58" />
-            </div>
-            <div className="text-lg text-gray-700 mb-8 max-w-xl">
-              <p>Profesando y viviendo el amor de Cristo.</p>
-              <h1>
+            <div className="text-lg text-black mb-8 max-w-xl">
+              <p className="text-5xl mb-4">Profesando y viviendo el amor de Cristo.</p>
+              <h1 className="text-gray-600">
                 Somos ABBA Iglesia Evangélica, una comunidad de fe, esperanza y
                 amor, situada en el corazón de Gijón. Te invitamos a unirte a
                 nuestra familia.
@@ -42,7 +39,7 @@ const Hero = () => {
 
               <a
                 href="#about"
-                className="inline-flex items-center gap-2 px-6 py-3 border border-church-purple text-church-purple hover:text-purple hover:bg-church-purple/20 rounded-lg text-base transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 border border-church-purple text-church-purple hover:text-church-purple hover:bg-church-purple/20 rounded-lg text-base transition-colors"
               >
                 Conócenos
               </a>
