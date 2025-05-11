@@ -1,4 +1,4 @@
-import { Clock, BookOpen, Users, Mail } from "lucide-react";
+import { Clock, BookOpen, Users, Smile, PersonStanding} from "lucide-react";
 
 const Services = () => {
   const serviceSchedule = [
@@ -10,11 +10,25 @@ const Services = () => {
       icon: <Clock className="h-8 w-8 text-church-gold" />,
     },
     {
+      day: "Jueves",
+      name: "Discipulado Nuevos Creyentes",
+      time: "20:00",
+      description: "Tiempo de enseñanza y acompañamiento para fortalecer la fe y los principios cristianos en nuevos creyentes.",
+      icon: <PersonStanding className="h-8 w-8 text-church-gold" />,
+    },
+    {
       day: "Viernes",
       name: "Discipulado",
       time: "20:00",
       description: "Estudio bíblico y formación espiritual para creyentes.",
       icon: <BookOpen className="h-8 w-8 text-church-gold" />,
+    },
+    {
+      day: "Sabado",
+      name: "Reunion de Jovenes",
+      time: "19:00",
+      description: "Un espacio de encuentro para jóvenes, con actividades, reflexión y momentos de comunidad.",
+      icon: <Smile className="h-8 w-8 text-church-gold" />,
     },
     {
       day: "Domingo",
