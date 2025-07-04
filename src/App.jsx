@@ -1,31 +1,22 @@
-import './App.css'
-import DailyVerse from './components/DailyVerse'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About'
-import Services from './components/Services'
-import Location from './components/Location'
-import Footer from './components/Footer'
-import ScrollToTop from './components/ScrollToTop'
-import { useEffect } from 'react'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Cookies from "./pages/Cookies";
+import Privacidad from "./pages/Privacidad";
+import Home from "./pages/Home";
+import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    document.title = 'ABBA Iglesia Evangélica';
+    document.title = "ABBA Iglesia Evangélica";
   }, []);
-  
+
   return (
-    <>
-      <Header />
-      <Hero />
-      <DailyVerse />
-      <About />
-      <Services />
-      <Location />
-      <Footer />
-      <ScrollToTop />
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/cookies" element={<Cookies />} />
+      <Route path="/privacidad" element={<Privacidad />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
