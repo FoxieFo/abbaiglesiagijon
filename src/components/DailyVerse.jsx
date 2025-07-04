@@ -8,7 +8,7 @@ const DailyVerse = () => {
   const verse = verses[dayOfYear % verses.length];
 
   return (
-    <section className="py-16 bg-church-purple/5">
+    <section className="py-16 bg-church-purple/5" id='versiculo'>
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center justify-center gap-2 mb-4">

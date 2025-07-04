@@ -1,19 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "./../images/logo/logo.svg";
+import logo from "./../images/logo/logo-light.svg";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMenuVisible, setIsMenuVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   const toggleMenu = () => {
     if (isMenuOpen) {
@@ -26,19 +17,14 @@ const Header = () => {
   };
 
   const navLinks = [
-    { name: "Inicio", href: "#home" },
+    { name: "Versiculo", href: "#versiculo" },
     { name: "Sobre nosotros", href: "#about" },
     { name: "Servicios", href: "#services" },
+    { name: "Ubicación", href: "#contact" },
   ];
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/95 shadow-md backdrop-blur-sm py-3"
-          : "bg-transparent py-3"
-      }`}
-    >
+    <header className="absolute top-0 left-0 right-0 z-50 bg-transparent py-3">
       <div className="container mx-auto flex justify-between items-center px-4">
         <a href="#home" className="flex items-center gap-2">
           <img className="w-28" src={logo} alt="logo" />
@@ -50,7 +36,7 @@ const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-gray-700 hover:text-church-purple transition-colors font-normal"
+              className="text-white hover:text-church-gold transition-colors font-normal"
             >
               {link.name}
             </a>
@@ -66,7 +52,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-gray-700 z-50 relative"
+          className="md:hidden text-church-light-purple z-50 relative"
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -100,9 +86,8 @@ const Header = () => {
           </div>
         </div>
       )}
-    </nav>
+    </header>
   );
 };
 
-export default Header
-
+export default Header;
