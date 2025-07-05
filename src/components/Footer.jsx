@@ -8,11 +8,12 @@ const Footer = () => {
   return (
     <footer className="bg-church-dark-purple text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <img src={Logo} alt="logo" />
+            <a href="/">
+              <img src={Logo} alt="logo" />
+            </a>
           </div>
-
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Horarios</h3>
             <ul className="space-y-3">
@@ -49,7 +50,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white">
               Enlaces Rápidos
             </h3>
-            <div className="flex flex-col space-x-4">
+            <div className="flex flex-col space-y-4">
               <a
                 href="https://wa.me/34675042136"
                 target="_blank"
@@ -81,6 +82,24 @@ const Footer = () => {
                 <Instagram size={20} />
                 Síguenos
               </a>
+              <div className="flex flex-row gap-4 mt-2 text-sm">
+                <a
+                  href="/privacidad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-white hover:text-church-gold transition-colors mb-4"
+                >
+                  Privacidad
+                </a>
+                <a
+                  href="/cookies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" inline-flex items-center gap-2 text-white hover:text-church-gold transition-colors mb-4"
+                >
+                  Cookies
+                </a>
+              </div>
             </div>
           </div>
         </div>
