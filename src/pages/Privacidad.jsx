@@ -1,3 +1,5 @@
+import Header from "../components/Header";
+
 const Privacidad = () => {
   return (
     <div className="p-8">

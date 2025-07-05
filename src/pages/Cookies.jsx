@@ -1,3 +1,5 @@
+import Header from "../components/Header";
+
 const Cookies = () => {
   return (
     <div className="p-8">
