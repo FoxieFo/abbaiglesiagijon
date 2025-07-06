@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${HeroImg})` }}
     >
       <div className="absolute inset-0 bg-church-purple/30 mix-blend-overlay"></div>
-      <div className="relative z-10 container mx-auto px-4 py-32 flex justify-left items-end min-h-[80vh]">
+      <div className="relative z-10 container mx-auto px-4 pt-32 pb-18 flex justify-left items-end min-h-[80vh]">
         <div className="max-w-2xl text-left text-white animate-slide-up ">
           <p className="text-5xl font-bold mb-4">
             Profesando y viviendo el amor de Cristo.
