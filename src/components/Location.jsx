@@ -59,7 +59,13 @@ const Location = () => {
                     </h4>
                     <p className="text-gray-600">Martes: 20:00 (Oración)</p>
                     <p className="text-gray-600">
+                      Jueves: 20:00 (Discipulado Nuevos Creyentes)
+                    </p>
+                    <p className="text-gray-600">
                       Viernes: 20:00 (Discipulado)
+                    </p>
+                    <p className="text-gray-600">
+                      Sabado: 19:00 (Reunion de Jovenes)
                     </p>
                     <p className="text-gray-600">
                       Domingo: 11:00 (Reunión Familiar)

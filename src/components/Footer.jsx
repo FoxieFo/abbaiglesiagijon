@@ -22,8 +22,18 @@ const Footer = () => {
                 <span className="text-sm">Oración - 20:00</span>
               </li>
               <li className="text-white">
+                <span className="block font-medium">Jueves</span>
+                <span className="text-sm">
+                  Discipulado Nuevos Creyentes - 20:00
+                </span>
+              </li>
+              <li className="text-white">
                 <span className="block font-medium">Viernes</span>
                 <span className="text-sm">Discipulado - 20:00</span>
+              </li>
+              <li className="text-white">
+                <span className="block font-medium">Sabado</span>
+                <span className="text-sm">Reunion de Jovenes - 19:00</span>
               </li>
               <li className="text-white">
                 <span className="block font-medium">Domingo</span>
