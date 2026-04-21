@@ -1,4 +1,4 @@
-import { Clock, BookOpen, Users, Smile, PersonStanding} from "lucide-react";
+import { Clock, BookOpen, Users, Smile, Heart, PersonStanding} from "lucide-react";
 
 const Services = () => {
   const serviceSchedule = [
@@ -23,10 +23,17 @@ const Services = () => {
       description: "Estudio bíblico y formación espiritual para creyentes.",
       icon: <BookOpen className="h-8 w-8 text-church-gold" />,
     },
+        {
+      day: "Sabado",
+      name: "Reunion de Mujeres",
+      time: "17:00",
+      description: "Un espacio de encuentro para jóvenes, con actividades, reflexión y momentos de comunidad.",
+      icon: <Heart className="h-8 w-8 text-church-gold" />,
+    },
     {
       day: "Sabado",
       name: "Reunion de Jovenes",
-      time: "19:00",
+      time: "19:30",
       description: "Un espacio de encuentro para jóvenes, con actividades, reflexión y momentos de comunidad.",
       icon: <Smile className="h-8 w-8 text-church-gold" />,
     },
