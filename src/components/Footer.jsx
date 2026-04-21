@@ -33,7 +33,11 @@ const Footer = () => {
               </li>
               <li className="text-white">
                 <span className="block font-medium">Sabado</span>
-                <span className="text-sm">Reunion de Jovenes - 19:00</span>
+                <span className="text-sm">Reunion de Mujeres - 17:00</span>
+              </li>
+              <li className="text-white">
+                <span className="block font-medium">Sabado</span>
+                <span className="text-sm">Reunion de Jovenes - 19:30</span>
               </li>
               <li className="text-white">
                 <span className="block font-medium">Domingo</span>
