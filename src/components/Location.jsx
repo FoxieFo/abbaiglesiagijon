@@ -65,10 +65,10 @@ const Location = () => {
                       Viernes: 20:00 (Discipulado)
                     </p>
                     <p className="text-gray-600">
-                      Sabado: 17:00 (Reunion de Mujeres)
+                      Sabado: 17:00 (Reunión de Mujeres)
                     </p>
                     <p className="text-gray-600">
-                      Sabado: 19:30 (Reunion de Jovenes)
+                      Sabado: 19:30 (Reunión de Jovenes)
                     </p>
                     <p className="text-gray-600">
                       Domingo: 11:00 (Reunión Familiar)
