@@ -27,7 +27,7 @@ const Services = () => {
       day: "Sabado",
       name: "Reunion de Mujeres",
       time: "17:00",
-      description: "Un espacio de encuentro para jóvenes, con actividades, reflexión y momentos de comunidad.",
+      description: "Un tiempo de renovación y amistad, donde fortalecemos nuestra relación con Dios y con las demás.",
       icon: <Heart className="h-8 w-8 text-church-gold" />,
     },
     {
